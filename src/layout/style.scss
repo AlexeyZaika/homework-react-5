@@ -1,0 +1,37 @@
+.sideBar {
+  flex: 0 0 250px;
+  margin-right: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  &__list {
+    list-style: none;
+    li {
+      padding: 5px 0;
+    }
+  }
+  &__link {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: dodgerblue;
+    transition: color 0.5s ease 0s;
+    &:hover {
+      color: mediumblue;
+    }
+  }
+  &__subMenu {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 5px;
+    a {
+      font-size: 16px;
+      text-decoration: none;
+      color: dodgerblue;
+      transition: color 0.5s ease 0s;
+      &:hover {
+        color: mediumblue;
+      }
+    }
+  }
+}

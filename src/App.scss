@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.header {
+  background-color: dodgerblue;
+  &__list {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    list-style: none;
+    li {
+      margin-right: 20px;
+    }
+  }
+  &__link {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.5s ease 0s;
+    &:hover {
+      color: mediumblue;
+    }
+  }
+}
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__title {
+    font-size: 54px;
+    color: dodgerblue;
+  }
+}
